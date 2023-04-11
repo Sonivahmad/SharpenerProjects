@@ -27,11 +27,21 @@
 // main.style.fontWeight = 'bold'
 // main.style.color = 'green';
 
-let items =document.getElementsByClassName('list-group-item');
-console.log(items);
-// items[1].textContent='hello 3';
-for(let i =0; i<items.length;i++){
-    items[i].style.fontWeight='bold';
-}
+// let items =document.getElementsByClassName('list-group-item');
+// console.log(items);
+// // items[1].textContent='hello 3';
+// for(let i =0; i<items.length;i++){
+//     items[i].style.fontWeight='bold';
+// }
 
-items[2].style.backgroundColor = 'green';
+// items[2].style.backgroundColor = 'green';
+
+// let itemLast = document.getElementsByClassName('list-group-item-last');
+// console.log(itemLast);
+// itemLast[0].style.color='red';
+// itemLast[0].style.fontWeight='bold';
+
+// let li =document.getElementsByTagName('li');
+// console.log(li);
+// li[4].style.color='red'
+// li[4].style.fontWeight ='bold'
