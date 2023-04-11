@@ -56,3 +56,11 @@
 // let items=document.querySelectorAll('.list-group-item');
 // items[1].style.color='green';
 
+let odd=document.querySelectorAll('li:nth-child(odd)');
+let even=document.querySelectorAll('li:nth-child(even)');
+
+for(let i=0; i<odd.length;i++)
+{
+    odd[i].style.backgroundColor='green';
+    even[i].style.backgroundColor='red';
+}
