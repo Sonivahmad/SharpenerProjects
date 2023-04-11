@@ -52,3 +52,7 @@
 
 // let thirdItems = document.querySelector('.list-group-item:nth-child(3)');
 // thirdItems.style.display='none';
+
+// let items=document.querySelectorAll('.list-group-item');
+// items[1].style.color='green';
+
