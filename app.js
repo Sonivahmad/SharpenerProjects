@@ -45,3 +45,10 @@
 // console.log(li);
 // li[4].style.color='red'
 // li[4].style.fontWeight ='bold'
+
+// let secondItems = document.querySelector('.list-group-item:nth-child(2)');
+// secondItems.style.backgroundColor='green';
+
+
+// let thirdItems = document.querySelector('.list-group-item:nth-child(3)');
+// thirdItems.style.display='none';
