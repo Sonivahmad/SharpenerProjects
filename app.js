@@ -56,11 +56,34 @@
 // let items=document.querySelectorAll('.list-group-item');
 // items[1].style.color='green';
 
-let odd=document.querySelectorAll('li:nth-child(odd)');
-let even=document.querySelectorAll('li:nth-child(even)');
+// let odd=document.querySelectorAll('li:nth-child(odd)');
+// let even=document.querySelectorAll('li:nth-child(even)');
 
-for(let i=0; i<odd.length;i++)
-{
-    odd[i].style.backgroundColor='green';
-    even[i].style.backgroundColor='red';
-}
+// for(let i=0; i<odd.length;i++)
+// {
+//     odd[i].style.backgroundColor='green';
+//     even[i].style.backgroundColor='red';
+// }
+
+ let newDiv = document.createElement('div');
+ newDiv.className='hello world';
+ newDiv.id='hellu';
+ newDiv.setAttribute=('title', 'hello div');
+
+
+ let newDivText = document.createTextNode('HEllo');
+
+ newDiv.appendChild(newDivText);
+ let container = document.querySelector('.container');
+ let h1 =document.querySelector('h1');
+container.insertBefore(newDiv, h1 );
+newDiv.style.fontSize='70px'
+ console.log(newDiv);
+
+//  let newAdd = document.querySelector('.list-group');
+//  let newValue =document.querySelector('.list-group-item');
+// newAdd.insertBefore(newDiv, newValue);
+// newDiv.style.fontSize='70px'
+
+
+
